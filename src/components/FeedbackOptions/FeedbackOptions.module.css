@@ -1,0 +1,27 @@
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  
+    padding: 10px;
+  }
+  
+  .btn {
+    color: #FFD100;
+    font-size: 20px;
+    margin-top: 10px;
+    min-width: 100px;
+    padding: 5px;
+    background-color: #0082D1;
+    border: 1px solid #FFD100;
+    border-radius: 5px;
+  }
+  
+  .btn:hover,
+  .btn:focus {
+    color: #0082D1;
+  
+    background-color: #FFD100;
+  
+    border: 1px solid #0082D1;
+  }
