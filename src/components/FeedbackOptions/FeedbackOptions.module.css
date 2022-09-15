@@ -2,7 +2,6 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-  
     padding: 10px;
   }
   
@@ -20,8 +19,6 @@
   .btn:hover,
   .btn:focus {
     color: #0082D1;
-  
     background-color: #FFD100;
-  
     border: 1px solid #0082D1;
   }
