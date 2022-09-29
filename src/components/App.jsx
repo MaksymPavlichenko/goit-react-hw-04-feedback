@@ -44,7 +44,7 @@ export const App = () => {
           <FeedbackOptions
             options={['good', 'neuteral', 'bad']}
             onLeaveFeedback={handleBtn}
-          ></FeedbackOptions>
+          />
       </Section>
       <Section title="Statistics">
           {countTotalFeedback() > 0 ? (
@@ -54,7 +54,7 @@ export const App = () => {
               bad={bad}
               total={countTotalFeedback()}
               positivePercentage={countPossitiveFeedbackPercentage()}
-            ></Statistic>
+            />
           ) : (
             'There is no feedback'
           )}
